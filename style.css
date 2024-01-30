@@ -1,0 +1,699 @@
+@font-face {
+    font-family: "Guisol";
+    src:
+        local("Guisol"),
+
+        url("Fonts/Guisol.otf") format("opentype")
+}
+
+
+@font-face {
+    font-family: "Helvetica75";
+    src:
+        local("Helvetica75"),
+
+        url("Fonts/Helvetica\ Neue\ LT\ Std\ 75\ Bold.otf") format("opentype")
+}
+
+@font-face {
+    font-family: "Helvetica83";
+    src:
+        local("Helvetica83"),
+
+        url("Fonts/Helvetica\ Neue\ LT\ Std\ 83\ Heavy\ Extended.otf") format("opentype")
+}
+
+
+
+
+::-webkit-scrollbar {
+    width: 20px;
+
+
+    /* Largeur de la scrollbar */
+}
+
+/* Style de la "poignée" de la scrollbar */
+
+
+/* Image pour la "poignée" de la scrollbar */
+::-webkit-scrollbar-thumb {
+    background-image: url('images/Recurso\ 11ART\ ICONS.png');
+    /* Chemin de l'image */
+    background-size: contain;
+    /* Ajuster la taille de l'image */
+    background-repeat: no-repeat;
+    transform: rotate(90deg);
+    /* Rotation de 90 degrés */
+
+    /* Ne pas répéter l'image */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    cursor: url('images/Recurso\ 59MODERN\ ICON.svg')16 16, auto;
+
+    /* Ajoute une animation de rotation continue de 5 secondes */
+}
+
+
+
+
+
+
+.big-containers {
+
+    width: 100%;
+    height: 2000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.containers-around {
+
+    width: 12.5%;
+    height: 100%;
+    font-family: "Helvetica83";
+    color: transparent;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.containers-middle-recto {
+
+    width: 75%;
+    height: 1500px;
+    background-color: white;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    padding: 50px;
+    transition: transform 0.5s ease;
+
+
+}
+
+.containers-middle-verso {
+
+    width: 75%;
+    height: 1500px;
+    display: none;
+    background-color: white;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    padding: 50px;
+    transition: transform 0.5s ease;
+
+
+}
+
+
+.title-top {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 100px;
+}
+
+
+.title-top-left {
+    font-family: "Guisol";
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    width: 50%;
+
+
+
+}
+
+.title-top-right {
+    font-family: "Guisol";
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    justify-content: space-between;
+
+
+
+}
+
+
+.star-top {
+    width: 150px;
+    height: 50px;
+}
+
+.rond-top {
+    width: 50px;
+    height: 50px;
+}
+
+
+.star2-top {
+    width: 150px;
+    height: 50px;
+}
+
+
+.reality {
+    font-family: "Helvetica75";
+}
+
+.star-text {
+    display: flex;
+    align-items: center;
+    font-family: "Helvetica75";
+    font-size: 15px;
+    gap: 50px;
+}
+
+
+.undertop {
+    font-family: "Helvetica75";
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    height: 75px;
+    border-top: 3px solid black;
+
+}
+
+
+
+.EEE {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.world {
+    width: 50px;
+    height: 50px;
+}
+
+
+.EEE-world {
+    display: flex;
+    align-items: center;
+}
+
+
+.undertop-myself {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    justify-content: space-between;
+
+
+}
+
+.undertop-name {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 15px;
+}
+
+.undertop {
+    width: 90%;
+}
+
+.myselfandstacks {
+    width: 50%;
+    height: 1420px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.myself {
+    width: 100%;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+
+    align-items: center;
+    height: 600px;
+    font-family: "Helvetica75";
+
+    background-size: contain;
+    background-repeat: none;
+    justify-content: center;
+}
+
+.myself-container {
+    text-align: center;
+    width: 100%;
+    height: 35%;
+
+
+
+}
+
+.titlemyself {
+    font-size: 25px;
+}
+
+.locationmyself {
+    font-size: 20px;
+}
+
+.passionmyself {
+    font-size: 17px;
+}
+
+.grandesimg {
+    width: 70%;
+    height: 50%;
+    position: relative;
+    transition: 1s ease-in-out;
+
+
+}
+
+.imagesme {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    border-radius: 0px;
+    opacity: 0.6;
+    filter: grayscale(100);
+    padding: 0;
+    transition: 0.5s ease-in-out;
+    background-image: url("images/3d60fcc1ccde08a37ab8bfbf9c389cc2.jpg");
+    position: relative;
+
+}
+
+.imagesme:hover {
+    opacity: 1;
+    filter: grayscale(0);
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+
+}
+
+
+
+.grandesimg:hover .imagesme-restricted {
+    opacity: 0;
+}
+
+
+
+.imagesme-restricted {
+    transition: 0.2s ease-in-out;
+
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 25%);
+    width: 50%;
+    opacity: 100%;
+    background-position: center;
+    height: 35%;
+    background-image: url("images/Fichier\ 438@4x.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+.restricted {
+    aspect-ratio: 1/1;
+}
+
+.nameandData {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    width: 90%;
+    height: 210px;
+    background-image: url("images/TEST.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+
+.VirtualData {
+    font-family: "Helvetica75";
+}
+
+
+.dotsandtext {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+}
+
+
+.jspencore {
+    font-family: "Helvetica75";
+    font-size: 15px;
+}
+
+.profil-container {
+    width: 90%;
+}
+
+.profil {
+    text-align: center;
+    font-family: "Guisol";
+    font-size: 160px;
+    margin: 0;
+    color: #ffffff;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    transition: color 0.5s ease-out;
+}
+
+
+
+.profil:hover {
+    color: black
+        /* Change la couleur du texte en noir au survol */
+}
+
+
+
+.statuscible {
+    display: flex;
+    align-items: center;
+
+}
+
+.displaystatus {
+    font-family: "Helvetica75";
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.test {
+    word-spacing: 5px;
+}
+
+.cible {
+    width: 20px;
+    height: 20px;
+}
+
+.cibleoncible {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+
+
+.on {
+    margin: 0;
+}
+
+.stacks {
+    width: 90%;
+    height: 350px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+.stacks-container {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.stackstext {
+
+    font-family: "Guisol";
+    font-size: 160px;
+    margin: 0;
+    color: rgb(0, 0, 0);
+    transition: color 0.5s ease;
+
+
+
+}
+
+
+.stackstext:hover {
+    color: white;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+
+
+}
+
+
+.FocusOnIntention {
+    width: 100%;
+    display: flex;
+    font-family: "Helvetica75";
+    font-size: 15px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.probabilities {
+    width: 100%;
+    height: 175px;
+    padding-top: 2vh;
+    font-family: "Helvetica75";
+    font-size: 25px;
+
+}
+
+.btwWithClear {
+    width: 20%;
+    height: 4px;
+    background-color: black;
+}
+
+.probabilities-top {
+    width: 100%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.probabilities-middle {
+    width: 90%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.probabilities-bot {
+    width: 100%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.btwI {
+    width: 15%;
+    height: 4px;
+    background-color: black;
+}
+
+.btwISHALL {
+    width: 5%;
+    height: 4px;
+    background-color: black;
+}
+
+.btwFP {
+    width: 35%;
+    height: 4px;
+    background-color: black;
+}
+
+
+.borderprojects-container {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.borderprojects {
+    width: 50%;
+    background-color: black;
+    height: 3px;
+}
+
+
+
+
+
+.rotation {
+    width: 100px;
+    height: 125px;
+}
+
+.toggle-button {
+    position: fixed;
+    font-family: "Helvetica75";
+    right: 0px;
+    bottom: 20px;
+    padding: 10px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 15px;
+
+
+}
+
+.focus:hover {
+
+    animation: focus 2s ease-in-out;
+    transform: scale(1.4);
+}
+
+@keyframes focus {
+    10% {
+        transform: scale(1.6);
+    }
+
+    20% {
+        filter: blur(3px);
+    }
+
+    30% {
+        transform: scale(1.3);
+    }
+
+    45% {
+        filter: blur(1px);
+    }
+
+    65% {
+        transform: scale(1.4);
+    }
+
+    80% {
+        filter: blur(0px);
+    }
+
+    100% {}
+}
+
+
+.canwe {
+    transition: 0.5s ease-in-out;
+    /* Ajout de la transition smooth */
+
+}
+
+.black-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: none;
+    /* Initialement masqué */
+    z-index: 999;
+    /* Place la div au-dessus de tous les autres éléments */
+    opacity: 1;
+    /* Ajustez l'opacité selon vos préférences */
+    pointer-events: none;
+    /* Permet aux événements de souris de passer à travers */
+}
+
+
+.blur-effect {
+    filter: blur(5px);
+    /* Ajustez le niveau de flou selon vos préférences */
+}
+
+.myselftop {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.myselfmiddle {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    font-size: 17px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.myselftopmiddle {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    font-size: 17px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.myselftop-border {
+    width: 55px;
+    height: 2px;
+    background-color: black;
+}
+
+.myselftopmiddle-border {
+    width: 100px;
+    height: 2px;
+    background-color: black;
+}
+
+.myselfmiddle-border {
+    width: 20px;
+    height: 2px;
+    background-color: black;
+}
